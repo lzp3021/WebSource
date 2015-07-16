@@ -1,0 +1,36 @@
+
+.pageContent { display:block;overflow:auto;position:relative;}
+
+
+/* Pages Form */
+.pageForm { display:block; overflow:auto;}
+.pageFormContent { display:block; overflow:auto; padding:10px 5px; position:relative;}
+.pageFormContent div { float:left; display:block; width:380px; height:21px; margin:0; padding:5px 0; position:relative;}
+.pageFormContent div.unit {display:block; margin:0; padding:5px 0; position:relative;clear:both;}
+.pageFormContent p { float:left; display:block; width:380px; height:21px; margin:0; padding:5px 0; position:relative;}
+.pageFormContent p.nowrap { height:auto; width: 100%}
+.pageFormContent .radioGroup { float:left; display:block; overflow:hidden;}
+.pageFormContent label { float:left; width:120px; padding:0 5px; line-height:21px;}
+.pageFormContent label.radioButton { float:left; width:auto; padding:0 10px 0 0; line-height:21px;}
+.pageFormContent .textInput { float:left;}
+.pageFormContent select { float:left;}
+.pageFormContent .inputInfo { padding:0 5px; line-height:21px;}
+.pageFormContent span.unit, .pageFormContent a.unit { padding:0 5px; line-height:21px;}
+.pageFormContent span.info{color:#7F7F7F;display:block;line-height:21px;float:left;}
+
+.pageFormContent dl { float:left; display:block; width:380px; height:21px; margin:0; padding:5px 0; position:relative;border:1px #dde solid;margin-right:-1px;margin-top:-1px;}
+.pageFormContent dt { float:left; width:120px; height:21px;line-height:21px;margin-left:-1px; margin-top:-6px; padding:5px 5px;border:1px #dde solid;
+color:#056ea7;text-align:right;background:#ebf8ff;
+}
+.pageFormContent dd {display:block;line-height:21px;width:220px;float:left;position:relative;}
+
+
+.pageFormContent dl.nowrap, .nowrap dl{width:100%; height:auto; clear: both;}
+.pageFormContent dl.nowrap dd, .nowrap dd {width: 560px;}
+
+
+
+
+
+
+

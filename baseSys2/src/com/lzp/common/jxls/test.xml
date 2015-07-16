@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook>
+	<worksheet name="3">
+		<section startRow="0" endRow="6">
+			<mapping cell="A2">department.name</mapping>
+		</section>
+		<loop startRow="7" endRow="7" items="employees" var="employee"
+			varType="com.lzp.common.jxls.Employee">
+			<section startRow="7" endRow="7">
+				<mapping row="7" col="0">employee.name</mapping>
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="6"></cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+</workbook>
